@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = 'jibin321/two-tier-todo'
+        IMAGE_NAME = 'appuvivekpp/two-tier-todo'
         REGISTRY_CREDENTIALS = 'dockerhub-creds'
     }
 
